@@ -1,0 +1,56 @@
+.about-inner {
+  @include inner;
+}
+
+.about-title {
+  margin-top: 113px;
+  font-family: $font;
+  font-size: 40px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.about-motto {
+  margin-top: 15px;
+  font-family: $font;
+  font-size: 14px;
+  line-height: 20px;
+  color: #C0C0C0;
+  text-align: center;
+}
+
+.about-list {
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin-bottom: 100px;
+
+}
+
+.about-item {
+  position: relative;
+  flex-basis: 50%;
+}
+
+.about-content {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  right: 30px;
+  color: $color-light;
+}
+
+.visual-title {
+  font-family: $font;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.about-text {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: $font;
+  font-size: 14px;
+  line-height: 20px;
+  color: #C0C0C0;
+}

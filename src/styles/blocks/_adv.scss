@@ -1,0 +1,95 @@
+.adv-inner {
+  @include inner;
+  text-align: right;
+}
+
+.adv-info {
+  text-align:left;
+  margin-left: 900px;
+}
+
+/* mount */
+
+.adv-mount {
+  background-color: rgb(73, 72, 72);
+  background-image: url(/img/img2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.adv-title-mount {
+  margin-top: 280px;
+  color: $color-light;
+  font-family: $font;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+}
+
+.adv-text-mount {
+  margin-bottom: 260px;
+  color: #C0C0C0;
+  font-family: $font;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* leaf */
+
+.adv-leaf {
+  background-color: rgb(28, 50, 28);
+  background-image: url(/img/img3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.adv-title-leaf {
+  margin-top: 280px;
+  color: $color-light;
+  font-family: $font;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.adv-text-leaf {
+  margin-bottom: 260px;
+  color: #C0C0C0;
+  font-family: $font;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* star */
+
+.adv-star {
+  background-color: rgb(28, 9, 56);
+  background-image: url(/img/img4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.adv-title-star {
+  margin-top: 250px;
+  color: $color-light;
+  font-family: $font;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.adv-text-star {
+  margin-bottom: 250px;
+  color: #C0C0C0;
+  font-family: $font;
+  font-size: 14px;
+  line-height: 20px;
+}

@@ -1,0 +1,23 @@
+.faq-inner {
+  @include inner;
+  text-align: center;
+}
+
+.faq-title {
+  margin-top: 113px;
+  font-size: 40px;
+  line-height: 42px;
+  font-family: $font;
+}
+
+.faq-text {
+  margin-top: 15px;
+  margin-bottom: 12px;
+  font-family: $font;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.btn-faq {
+  margin: 0 auto 108px;
+}

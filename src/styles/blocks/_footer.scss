@@ -1,0 +1,94 @@
+.footer-inner {
+  @include inner;
+}
+
+.footer-wrap {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-text {
+  margin-top: 20px;
+  font-family: $font;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.footer-logo-menu {
+  display: block;
+  margin-right: 252px;
+}
+
+.fmenu {
+  display: block;
+  margin-right: 0;
+  margin-bottom: 36px;
+
+}
+
+.flist-title {
+  font-family: $font;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.flist-item {
+  font-family: $font;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.footer-separator {
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    max-width: 1200px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: $color-light;
+  }
+}
+
+.footer-about-title {
+  padding-top: 36px;
+  font-family: $font;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.footer-about-link {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 36px;
+  font-family: $font;
+  font-size: 13px;
+  line-height: 20px;
+  color:  #C0C0C0;
+}
+
+.footer-copy {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copyright {
+  padding-top: 56px;
+  font-family: $font;
+  font-size: 13px;
+  line-height: 20px;
+  color:  #C0C0C0;
+}

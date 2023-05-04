@@ -1,0 +1,36 @@
+.client-inner {
+  @include inner;
+}
+
+
+.client-title {
+  margin-top: 113px;
+  font-family: $font;
+  font-size: 40px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.client-text {
+  margin-top: 15px;
+  font-family: $font;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.client-list {
+  margin-top: 40px;
+  justify-content: space-around;
+}
+
+.client-link {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: block;
+  width: 128px;
+  height: 78px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
